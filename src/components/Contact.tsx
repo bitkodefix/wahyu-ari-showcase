@@ -47,13 +47,13 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '+62 812 3456 7890',
-      href: 'tel:+6281234567890'
+      value: '+6285155452258',
+      href: 'tel:+6285155452259'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Jakarta, Indonesia',
+      value: 'Boyolali, Indonesia',
       href: '#'
     }
   ];
