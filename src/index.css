@@ -145,8 +145,13 @@
   .btn-luxury {
     @apply relative overflow-hidden px-8 py-4 rounded-full font-medium;
     @apply bg-primary text-primary-foreground;
-    @apply transition-all duration-300 ease-[var(--ease-luxury)];
-    @apply hover:shadow-[var(--shadow-glow)] hover:scale-105;
+    @apply transition-all duration-300 ease-luxury;
+    box-shadow: 0 0 20px hsl(38 90% 70% / 0.3);
+  }
+  
+  .btn-luxury:hover {
+    @apply scale-105;
+    box-shadow: 0 0 40px hsl(38 90% 70% / 0.6);
   }
 
   /* Skill Badge */
@@ -160,8 +165,12 @@
   /* Project Card */
   .project-card {
     @apply glass-card p-6 group cursor-pointer;
-    @apply transition-all duration-500 ease-[var(--ease-luxury)];
-    @apply hover:scale-[1.02] hover:shadow-[var(--shadow-elegant)];
+    @apply transition-all duration-500 ease-luxury;
+  }
+  
+  .project-card:hover {
+    @apply scale-[1.02];
+    box-shadow: 0 25px 50px -12px hsl(220 13% 9% / 0.8);
   }
 
   /* Section Padding */

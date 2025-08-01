@@ -22,6 +22,10 @@ export default {
 				sans: ['Inter', 'system-ui', 'sans-serif'],
 				display: ['Poppins', 'system-ui', 'sans-serif'],
 			},
+			transitionTimingFunction: {
+				'luxury': 'cubic-bezier(0.4, 0, 0.2, 1)',
+				'bounce': 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
