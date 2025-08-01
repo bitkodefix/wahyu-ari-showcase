@@ -52,7 +52,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className="project-card animate-scale-in"
+              className="project-card group animate-scale-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Project Image */}

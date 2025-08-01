@@ -164,7 +164,7 @@
 
   /* Project Card */
   .project-card {
-    @apply glass-card p-6 group cursor-pointer;
+    @apply glass-card p-6 cursor-pointer;
     @apply transition-all duration-500 ease-luxury;
   }
   
