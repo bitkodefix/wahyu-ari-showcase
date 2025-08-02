@@ -39,7 +39,7 @@ const About = () => {
                     alt="Wahyu Ari"
                     className="w-64 h-64 rounded-2xl object-cover mx-auto shadow-2xl"
                   />
-                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-primary/20 to-transparent backdrop-blur-[0.5px] contrast-125 saturate-150" style={{ filter: 'sepia(0.3) hue-rotate(15deg) brightness(1.1)' }} />
+                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-primary/20 to-transparent backdrop-blur-[0.2px]" style={{ filter: 'contrast(1.3) saturate(1.4) brightness(1.1) hue-rotate(10deg)' }} />
                 </div>
                 <div className="mt-6">
                   <h3 className="text-2xl font-display font-bold text-foreground">
