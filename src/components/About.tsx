@@ -1,5 +1,5 @@
 import { Code, Coffee, Heart, Lightbulb } from 'lucide-react';
-import profileImage from '@/assets/wahyu-profile.jpg';
+import animeProfile from '@/assets/anime-profile.jpg';
 
 const About = () => {
   const highlights = [
@@ -35,7 +35,7 @@ const About = () => {
               <div className="glass-card p-8 text-center">
                 <div className="relative inline-block">
                   <img
-                    src={profileImage}
+                    src={animeProfile}
                     alt="Wahyu Ari"
                     className="w-64 h-64 rounded-2xl object-cover mx-auto shadow-2xl"
                   />
